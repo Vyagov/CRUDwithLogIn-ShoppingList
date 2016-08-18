@@ -1,0 +1,159 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  background: #aaddaa; }
+
+#wrapper {
+  width: 400px;
+  margin: 1em auto;
+  padding: 1em;
+  font-size: 1.3em;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 2px solid #006699;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px #006699; }
+  #wrapper h1 {
+    margin-bottom: 8px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #003399; }
+  #wrapper label {
+    display: inline-block;
+    color: #006699;
+    margin: 5px 0;
+    font-weight: bold; }
+  #wrapper input {
+    width: 100%;
+    font-size: 1em;
+    padding: 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #006699;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background: #eeeeff; }
+    #wrapper input:focus {
+      outline: none;
+      box-shadow: 0 0 10px #006699; }
+  #wrapper button {
+    border-radius: 10px;
+    background: #006699;
+    color: #eeeeff;
+    padding: 8px 12px;
+    font-size: 1em; }
+    #wrapper button:focus {
+      outline: none; }
+    #wrapper button:hover {
+      cursor: pointer; }
+  #wrapper #error {
+    font-weight: bold;
+    text-align: center; }
+  #wrapper .error {
+    font-weight: bold;
+    text-align: center;
+    color: #ff0000; }
+  #wrapper .err {
+    border-color: #ee0000;
+    box-shadow: 0 0 10px #ee0000; }
+
+#container {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 700px;
+  margin: 0 auto; }
+  #container tr:nth-child(even) {
+    background: #1177aa;
+    color: #eeeeff; }
+  #container tr:nth-child(odd) {
+    background: #eeeeff;
+    color: #1177aa; }
+  #container tr td button {
+    outline: none;
+    border: none;
+    background: transparent; }
+    #container tr td button:hover {
+      cursor: pointer; }
+    #container tr td button.fa-pencil {
+      margin-right: 5px;
+      color: #ffa000; }
+    #container tr td button.fa-times {
+      color: #ff0000; }
+  #container div {
+    text-align: right;
+    color: #eeeeff; }
+    #container div button {
+      outline: none;
+      border: none;
+      background: transparent; }
+      #container div button:hover {
+        cursor: pointer; }
+      #container div button.fa-plus {
+        color: #006699; }
+  #container h1 {
+    margin: 0.5em 0 0.3em 0;
+    text-align: center;
+    font-size: 3em;
+    color: #006699; }
+  #container table {
+    width: 100%;
+    border: 3px solid #006699;
+    border-collapse: collapse; }
+  #container td {
+    height: 30px;
+    padding: 10px;
+    font-size: 1.5em;
+    text-align: center; }
+  #container th {
+    height: 30px;
+    padding: 10px;
+    font-size: 1.5em;
+    color: #eeeeff;
+    background: #006699;
+    font-weight: bold; }
+
+/*# sourceMappingURL=style.css.map */
